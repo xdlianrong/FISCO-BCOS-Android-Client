@@ -3,7 +3,6 @@ package com.example.mytestapplication.autoconfigure;
 import org.fisco.bcos.web3j.crypto.EncryptType;
 import org.springframework.context.annotation.Bean;
 
-//@ConfigurationProperties(prefix = "encrypt-type")
 public class EncryptTypeConfig {
 
     private int encryptType;
